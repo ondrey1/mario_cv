@@ -1,14 +1,11 @@
 /* подключение файлов шрифта с разными вариантами форматов для отображения в разных браузерах */
 @font-face {
-   font-family: "Nineteen Ninety Seven";
+   font-family: "Gilroy-Medium";
    font-style: normal;
    font-weight: 400;
-   src: local("Nineteen Ninety Seven"),
+   src: local("Gilroy-Medium"),
       /* Пути к файлам шрифта */
-      url("../fonts/NineteenNinetySeven.otf") format("otf"),
-      url("../fonts/NineteenNinetySeven.ttf") format("ttf"),
-      url("../fonts/NineteenNinetySeven.woff") format("woff"),
-      url("../fonts/NineteenNinetySeven.woff2") format("woff2");
+   url("../fonts/Gilroy-Medium.ttf") format("truetype");
 }
 
 /* замена изображения курсора */
